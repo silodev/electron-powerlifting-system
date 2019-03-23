@@ -1,0 +1,19 @@
+table {
+    height: 150px;
+    overflow: scroll;
+   /*  margin-top: 20px; */
+   font-size: 12px !important;
+   color: #222 !important;
+}
+
+input{
+    font-size: 12px !important;
+    padding: -4px !important;
+}
+
+
+
+.ActiveRow{
+    background-color: #6c7e8b1c !important;
+}
+

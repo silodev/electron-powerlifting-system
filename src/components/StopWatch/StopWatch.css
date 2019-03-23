@@ -1,0 +1,32 @@
+.Digits {
+    background-color: #eee;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 4%;
+    border-radius: 5px;
+}
+
+.TimerButton {
+    color: #222 !important;
+    cursor: pointer;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.TimerButton:hover {
+    color: #969595 !important;
+}
+
+.TimerButtonToolbar{
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+.PAUSED{
+    background-color: #dad8d8;
+}
+
+.ChangeTimePopOver{
+    width: 10%;
+}
+

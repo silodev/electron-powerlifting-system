@@ -1,0 +1,11 @@
+.CallButtons{
+    height: 100%;
+    width: 100%;
+    
+}
+.ToolbarRow{
+    height: 100%;
+    width: 20%;
+    padding: 1%;
+  /*   margin: 1%; */
+}

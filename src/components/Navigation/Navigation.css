@@ -1,0 +1,29 @@
+a{
+    color: #222 !important;
+    text-decoration: none !important;
+}
+
+a:focus,
+a:hover{
+    z-index: 2 !important;
+    color: #222 !important;
+    background-color: #eee !important;
+    border: none !important;
+}
+
+.NavigationMenu{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+}
+
+ul{
+    width: 100% !important;
+}
+
+.ListItem{
+    border: 1px solid #464040 !important;
+    color: #eee !important;
+    padding-left: 45% !important;
+    background-color: #212020 !important;
+}
