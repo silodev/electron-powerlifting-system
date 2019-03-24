@@ -34,7 +34,6 @@ class StopWatch extends PureComponent {
         return (
             <div>
                 <div className={`Digits ${this.props.timer.timerState}`}>
-             
                     <Timer.Minutes formatValue={(value) => `${(value >= 10 ? `${value}` : `0${value}`)}`} />
                     <Timer.Seconds formatValue={(value) => `${(value < 10 ? `:0${value}` : `:${value}`)} `} />
                 </div>
@@ -64,7 +63,6 @@ class StopWatch extends PureComponent {
 }
 
 const mapStateToProps = state => {
-    console.log(state);
     return {
         minutes: state.stopWatch.minutes,
         timePopOverOpen: state.stopWatch.timePopoverOpen

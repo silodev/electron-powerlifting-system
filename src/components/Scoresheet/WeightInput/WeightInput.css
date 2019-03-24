@@ -1,8 +1,77 @@
-.GoodLift{
-    background-color: green !important;
+.GoodLift {
+    background-color: #0080008a !important;
     color: white !important;
 }
-.NoLift{
-    background-color: red !important;
+
+.NoLift {
+    background-color: #ea0000a2 !important;
     color: white !important;
+}
+
+.NoLift::placeholder, .GoodLift::placeholder {
+    color: white !important;
+    font: bold;
+    opacity: 1;
+    /* Firefox */
+}
+
+.ChangeWeightPopover{
+  
+    /* padding: 5% !important; */
+    margin-left: 2% !important;
+    border: none !important;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.1), 0px 4px 5px 0px rgba(0, 0, 0, 0), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+.IncrementSteps{
+    width: 8vh !important;
+    height: 4vh !important;
+    border: none !important;
+    background-color: #eee !important;
+ /*    color: white !important; */ 
+    margin: 0.5vh !important;
+  /*   display: inline !important;
+    border: none !important; */
+}
+
+.IncrementSteps:focus{
+    outline: 0 !important;
+}
+.IncrementButton{
+    background-color: #fff !important;
+    color: #222 !important;
+    margin: 0.5vh !important;
+    border: none !important; 
+    padding-left: 1.5vh !important;
+    padding-right: 1.5vh !important;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.1), 0px 4px 5px 0px rgba(0, 0, 0, 0), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+
+}
+.Minus{
+    background-color: rgb(180, 179, 179) !important;
+    padding-left: 1.9vh !important;
+    padding-right: 1.9vh !important;
+}
+.Plus{
+    background-color: #eee !important;
+}
+
+input[type="number"]:not(.IncrementSteps) {
+    -webkit-appearance: textfield !important;
+    -moz-appearance: textfield !important;
+    appearance: textfield !important;
+}
+
+input[type="number"]:not(.IncrementSteps)::-webkit-inner-spin-button, input[type=number]:not(.IncrementSteps)::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
 }
